@@ -1,3 +1,8 @@
+body{
+  background: linear-gradient(0deg, #c715154a, #ffb2582e, #f4d6db00);
+  background-attachment: fixed;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media only screen and (min-width: 1350px) {
+  .bonusSpace{
+    margin: 50px 500px;
+  }
+}
+
+
+@media only screen and (max-width: 1350px) {
+  .bonusSpace{
+    margin: 50px 350px;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .bonusSpace{
+    margin: 50px 250px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .bonusSpace{
+    margin: 50px 50px;
+  }
+  .bonusTitle {
+    font-size: 20px !important;
+  }
+}
+
+.bonusBlock{
+  border: solid 1px d5d5d5 !important;
+  border-radius: 15px !important;
+  margin: 20px 0 !important;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+}
+
+.bonusTitle{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.bonusDeadline{
+  font-weight: 600;
+}
+
+.navBar{
+  background: linear-gradient(180deg, #D2333E 0%, #F54B55 100%);
+  box-shadow: inset 0 0 20px 12px #0000003d;
+  border: 1px solid black;
+}
+
+.bonusIcon{
+  background: linear-gradient(180deg, #FFB258 20%, #C71515 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
 }
